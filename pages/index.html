@@ -1,39 +1,49 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es  ">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JpTravelers - HOME</title>
-    <link rel="logo" href="images/image-6.png">
-    <link rel="stylesheet" href="/style.css">
+    <title>JPTravelers</title>
+    <link rel="icon" href="/images/image-6.png">
+    <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
     <div class="layout">
-        <header class="header">
-            <img class="logo" src="images/image-6.png" alt="">
-            
-            <nav class="navHeader">
-                <a href="Home">Home</a>
+        <header>
+            <h1><span class="redLetter">JP</span>Travelers</h1>
+            <nav>
+                <a href="">Home</a>
                 <a href="#">Travels</a>
-                <a href="BuyPacks">Buy Packs</a>
+                <a href="">Buy Packs</a>
             </nav>
         </header>
-        <main class="main">
+        <main>
             <div class="banner">
-                <img class="banner" src="images/image-2.jpg" alt="">
-            </div>   
-            <h1>Choose your <span class="redTitle">best travel</span> travel opinion!</h1>
-            <h2>More information about your options:</h2>
+            <img src="/images/image-2.jpg" alt="Banner">
+            </div>
+            <h2>
+                Choose your <span class="redLetter">best travel</span> option!
+            </h2>
+            <h3 class="textGeneral">
+                More information abount your options:
+            </h3>
             <div class="contenedorImg">
-                <img class="images" src="images/image-3.jpg" alt="">
-                <img class="images" src="images/image-4.jpg" alt="">
-                <img class="images" src="images/image-5.jpg" alt="">
-        </div>
-        <p class="subtitulo">
-            We leave you more information about what the packages incluide.
-        </p>
-
-        <section class="section">
+                <div class="imagen1">
+                    <p class="title">Osaka</p>
+                </div>
+                <div class="imagen2">
+                    <p class="title">Kyoto</p>
+                </div>
+                <div class="imagen3">
+                    <p class="title">Tokyo</p>
+                </div>
+            </div>
+            <h3 class="textGeneral">
+                We leave you more information about what the packages include.
+            </h3>
+            
+            <section class="section">
             <div class="Lista">
                 <ul>
                     <li>Advice on hotels an how to include them in the pack</li>
@@ -43,6 +53,7 @@
             </div>
             <div class="tableInf">
                 <table>
+                    <caption>Price depending on the city:</caption>
                     <thead>
                         <tr>
                             <th>Price(USD) full</th>
@@ -70,26 +81,18 @@
                 </table>
             </div>
         </section>
-        
+
+
         </main>
-        <footer class="footer">
-            <p>
-                MindHub <span class="redTitle">Cohort N</span>
+        <footer>
+            <p class="footer">
+                MindHub <span class="redLetter"> Cohort N</span>
             </p>
-            <form class="formRaffle" action="show_data.txt" method="get">
-                <label>
-                    Yes
-                    <input type="radio" name="travel" value="Yes">
-                </label>
-                <label>
-                    No
-                    <input type="radio" name="travel" value="No">
-                </label>
-                <label>
-            </form>
-            <p>
+
+            <p class="email">
                 jptravelers@gmail.com
             </p>
+
         </footer>
     </div>
 </body>
